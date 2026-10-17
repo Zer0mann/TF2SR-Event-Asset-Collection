@@ -1,30 +1,17 @@
 {
-    "current_scene": "Waiting Scene",
-    "current_program_scene": "Waiting Scene",
-    "scene_order": [
-        {
-            "name": "Waiting Scene"
-        },
-        {
-            "name": "Runner Scene"
-        },
-        {
-            "name": "StandBy"
-        }
-    ],
     "name": "FNF",
     "groups": [
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_Runners",
             "uuid": "98529c24-7bf5-4487-bee1-5f0bf533c67a",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 5,
                 "custom_size": true,
                 "cx": 245,
                 "cy": 413,
+                "id_counter": 5,
                 "items": [
                     {
                         "name": "R_Runner 5",
@@ -103,11 +90,11 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 1.5,
-                            "y": 270.00003051757812
+                            "y": 270.0000305175781
                         },
                         "pos_rel": {
-                            "x": -1.7749999761581421,
-                            "y": -0.49999994039535522
+                            "x": -1.774999976158142,
+                            "y": -0.4999999403953552
                         },
                         "scale": {
                             "x": 0.26944443583488464,
@@ -162,7 +149,7 @@
                         },
                         "pos_rel": {
                             "x": -1.7731481790542603,
-                            "y": -0.67037045955657959
+                            "y": -0.6703704595565796
                         },
                         "scale": {
                             "x": 0.26944443583488464,
@@ -213,11 +200,11 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 1.4998779296875,
-                            "y": 86.999969482421875
+                            "y": 86.99996948242188
                         },
                         "pos_rel": {
                             "x": -1.7750002145767212,
-                            "y": -0.83888894319534302
+                            "y": -0.838888943195343
                         },
                         "scale": {
                             "x": 0.26944443583488464,
@@ -329,19 +316,20 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_Runners",
             "uuid": "ae9fc44c-335f-4676-b2ec-6c5f55dfb720",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 244,
                 "cy": 413,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "L_Runner 5",
@@ -420,11 +408,11 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.5,
-                            "y": 270.00003051757812
+                            "y": 270.0000305175781
                         },
                         "pos_rel": {
                             "x": -1.7768518924713135,
-                            "y": -0.49999994039535522
+                            "y": -0.4999999403953552
                         },
                         "scale": {
                             "x": 0.26944443583488464,
@@ -479,7 +467,7 @@
                         },
                         "pos_rel": {
                             "x": -1.7768518924713135,
-                            "y": -0.67037034034729004
+                            "y": -0.67037034034729
                         },
                         "scale": {
                             "x": 0.26944443583488464,
@@ -530,11 +518,11 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 1.49993896484375,
-                            "y": 87.000030517578125
+                            "y": 87.00003051757812
                         },
                         "pos_rel": {
                             "x": -1.7750000953674316,
-                            "y": -0.83888882398605347
+                            "y": -0.8388888239860535
                         },
                         "scale": {
                             "x": 0.26944443583488464,
@@ -646,19 +634,20 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_RunnerPFPs",
             "uuid": "f3765196-a71e-488f-a970-cacd3cc2a795",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 63,
                 "cy": 424,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "L_RunnerPFP 5",
@@ -741,7 +730,7 @@
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -0.49814814329147339
+                            "y": -0.4981481432914734
                         },
                         "scale": {
                             "x": 0.23796288669109344,
@@ -796,7 +785,7 @@
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -0.66481482982635498
+                            "y": -0.664814829826355
                         },
                         "scale": {
                             "x": 0.23796288669109344,
@@ -851,7 +840,7 @@
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -0.83333331346511841
+                            "y": -0.8333333134651184
                         },
                         "scale": {
                             "x": 0.23796288669109344,
@@ -963,19 +952,20 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_RunnerPFPs",
             "uuid": "7b4c304b-af7d-42aa-a8fe-e308e36cecf1",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 64,
                 "cy": 424,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "R_RunnerPFP 5",
@@ -1113,7 +1103,7 @@
                         },
                         "pos_rel": {
                             "x": -1.7759268283843994,
-                            "y": -0.66481852531433105
+                            "y": -0.664818525314331
                         },
                         "scale": {
                             "x": 0.23796288669109344,
@@ -1168,7 +1158,7 @@
                         },
                         "pos_rel": {
                             "x": -1.7759268283843994,
-                            "y": -0.83333706855773926
+                            "y": -0.8333370685577393
                         },
                         "scale": {
                             "x": 0.23796288669109344,
@@ -1280,19 +1270,20 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Timers",
             "uuid": "1da53196-e21e-48db-8768-84e89e6abac1",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 438,
                 "cy": 2,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "R_Timer",
@@ -1319,16 +1310,16 @@
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": -0.96759259700775146,
+                            "x": -0.9675925970077515,
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 0.88518518209457397,
-                            "y": 0.88703703880310059
+                            "x": 0.885185182094574,
+                            "y": 0.8870370388031006
                         },
                         "scale_rel": {
-                            "x": 0.88518518209457397,
-                            "y": 0.88703703880310059
+                            "x": 0.885185182094574,
+                            "y": 0.8870370388031006
                         },
                         "bounds": {
                             "x": 0.0,
@@ -1375,15 +1366,15 @@
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -0.99629628658294678
+                            "y": -0.9962962865829468
                         },
                         "scale": {
-                            "x": 0.84166663885116577,
-                            "y": 0.83611112833023071
+                            "x": 0.8416666388511658,
+                            "y": 0.8361111283302307
                         },
                         "scale_rel": {
-                            "x": 0.84166663885116577,
-                            "y": 0.83611112833023071
+                            "x": 0.8416666388511658,
+                            "y": 0.8361111283302307
                         },
                         "bounds": {
                             "x": 0.0,
@@ -1426,19 +1417,20 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Runners",
             "uuid": "d3720e06-9e58-463a-8a71-f8f1d91b4c0c",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 1911,
                 "cy": 71,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "R_Runner",
@@ -1465,16 +1457,16 @@
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": 0.69907408952713013,
+                            "x": 0.6990740895271301,
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 0.69166666269302368,
-                            "y": 0.68796294927597046
+                            "x": 0.6916666626930237,
+                            "y": 0.6879629492759705
                         },
                         "scale_rel": {
-                            "x": 0.69166666269302368,
-                            "y": 0.68796294927597046
+                            "x": 0.6916666626930237,
+                            "y": 0.6879629492759705
                         },
                         "bounds": {
                             "x": 0.0,
@@ -1521,15 +1513,15 @@
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -0.99629628658294678
+                            "y": -0.9962962865829468
                         },
                         "scale": {
-                            "x": 0.69166666269302368,
-                            "y": 0.68796294927597046
+                            "x": 0.6916666626930237,
+                            "y": 0.6879629492759705
                         },
                         "scale_rel": {
-                            "x": 0.69166666269302368,
-                            "y": 0.68796294927597046
+                            "x": 0.6916666626930237,
+                            "y": 0.6879629492759705
                         },
                         "bounds": {
                             "x": 0.0,
@@ -1572,19 +1564,20 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Score",
             "uuid": "cf54c44b-838d-4c72-894f-f266410d0182",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
-                "cx": 85,
-                "cy": 83,
+                "cx": 88,
+                "cy": 86,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "R_Score",
@@ -1615,11 +1608,11 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 0.32222223281860352,
+                            "x": 0.3222222328186035,
                             "y": 0.32407405972480774
                         },
                         "scale_rel": {
-                            "x": 0.32222223281860352,
+                            "x": 0.3222222328186035,
                             "y": 0.32407405972480774
                         },
                         "bounds": {
@@ -1670,11 +1663,11 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 0.32222223281860352,
+                            "x": 0.3222222328186035,
                             "y": 0.32407405972480774
                         },
                         "scale_rel": {
-                            "x": 0.32222223281860352,
+                            "x": 0.3222222328186035,
                             "y": 0.32407405972480774
                         },
                         "bounds": {
@@ -1718,19 +1711,20 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Next_Up",
             "uuid": "25a3e213-de48-4d2f-8f06-9a93e024c699",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 413,
                 "cy": 156,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "Next_Up 2",
@@ -1758,7 +1752,7 @@
                         },
                         "pos_rel": {
                             "x": -1.7777775526046753,
-                            "y": -0.78703725337982178
+                            "y": -0.7870372533798218
                         },
                         "scale": {
                             "x": 0.15740740299224854,
@@ -1864,19 +1858,20 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Comms",
             "uuid": "1be882a6-9e64-464c-ae77-f737f5c1c143",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 497,
                 "cy": 175,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "Comms 3",
@@ -1904,14 +1899,14 @@
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -0.77407431602478027
+                            "y": -0.7740743160247803
                         },
                         "scale": {
-                            "x": 0.18787878751754761,
+                            "x": 0.1878787875175476,
                             "y": 0.18928571045398712
                         },
                         "scale_rel": {
-                            "x": 0.18787878751754761,
+                            "x": 0.1878787875175476,
                             "y": 0.18928571045398712
                         },
                         "bounds": {
@@ -1959,14 +1954,14 @@
                         },
                         "pos_rel": {
                             "x": -1.7777776718139648,
-                            "y": -0.88703715801239014
+                            "y": -0.8870371580123901
                         },
                         "scale": {
-                            "x": 0.18787878751754761,
+                            "x": 0.1878787875175476,
                             "y": 0.18928571045398712
                         },
                         "scale_rel": {
-                            "x": 0.18787878751754761,
+                            "x": 0.1878787875175476,
                             "y": 0.18928571045398712
                         },
                         "bounds": {
@@ -2017,11 +2012,11 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 0.18787878751754761,
+                            "x": 0.1878787875175476,
                             "y": 0.18928571045398712
                         },
                         "scale_rel": {
-                            "x": 0.18787878751754761,
+                            "x": 0.1878787875175476,
                             "y": 0.18928571045398712
                         },
                         "bounds": {
@@ -2067,9 +2062,27 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         }
     ],
+    "scene_order": [
+        {
+            "name": "Waiting Scene"
+        },
+        {
+            "name": "Runner Scene"
+        },
+        {
+            "name": "StandBy"
+        }
+    ],
+    "current_scene": "Runner Scene",
+    "current_program_scene": "Runner Scene",
+    "canvases": [],
+    "current_transition": "Fade",
+    "transition_duration": 300,
+    "transitions": [],
     "quick_transitions": [
         {
             "name": "Cut",
@@ -2093,31 +2106,16 @@
             "fade_to_black": true
         }
     ],
-    "transitions": [],
     "saved_projectors": [],
-    "current_transition": "Fade",
-    "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": 0,
+    "scaling_level": -4,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
         "type2": 3
     },
     "modules": {
-        "scripts-tool": [],
-        "output-timer": {
-            "streamTimerHours": 0,
-            "streamTimerMinutes": 0,
-            "streamTimerSeconds": 30,
-            "recordTimerHours": 0,
-            "recordTimerMinutes": 0,
-            "recordTimerSeconds": 30,
-            "autoStartStreamTimer": false,
-            "autoStartRecordTimer": false,
-            "pauseRecordTimer": true
-        },
         "auto-scene-switcher": {
             "interval": 300,
             "non_matching_scene": "",
@@ -2130,7 +2128,19 @@
             "enabled": false,
             "lang_id": 1033,
             "provider": "mssapi"
-        }
+        },
+        "output-timer": {
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "autoStartStreamTimer": false,
+            "autoStartRecordTimer": false,
+            "pauseRecordTimer": true
+        },
+        "scripts-tool": []
     },
     "resolution": {
         "x": 1920,
@@ -2139,19 +2149,54 @@
     "version": 2,
     "sources": [
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
+            "name": "Browser",
+            "uuid": "d83d6123-0e2e-40ec-bf5b-2e884cc9b491",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "is_local_file": true,
+                "local_file": "C:/Users/Zeroman/Documents/GitHub/TF2SR-Event-Asset-Collection/FNF/twitch-chat-overlay.html",
+                "width": 600,
+                "height": 240
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 537001986,
             "name": "Comms 1",
             "uuid": "68e97865-fb82-46df-ab78-cae42b5f60b2",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
-                "text": "Angry Space Dorito",
                 "outline": true,
+                "text": "Angry Space Dorito",
                 "font": {
                     "face": "Inter-Bureau",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "center",
                 "color": 4294562765,
@@ -2176,19 +2221,19 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Comms 2",
             "uuid": "a1e7963f-8310-4b6b-b0e2-2736b7c8cd04",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
-                "text": "Angry Space Dorito",
                 "outline": true,
+                "text": "Angry Space Dorito",
                 "font": {
                     "face": "Inter-Bureau",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "center",
                 "color": 4294562765,
@@ -2213,19 +2258,19 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Comms 3",
             "uuid": "a0e2277b-d788-4ce5-8d95-364f37c0a37e",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
-                "text": "Angry Space Dorito",
                 "outline": true,
+                "text": "Angry Space Dorito",
                 "font": {
                     "face": "Inter-Bureau",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "center",
                 "color": 4294562765,
@@ -2250,7 +2295,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Discord",
             "uuid": "117dab3d-bcea-4d56-b67b-f3a7cd70f959",
             "id": "wasapi_process_output_capture",
@@ -2281,19 +2326,19 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_Runner",
             "uuid": "ea3451b3-dff5-4536-9925-6233808aa841",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
-                "text": "Angry Space Dorito",
                 "outline": true,
+                "text": "Angry Space Dorito",
                 "font": {
                     "face": "Inter-Bureau",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 80,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "color": 4293842311,
                 "outline_size": 20,
@@ -2317,21 +2362,21 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_Runner 1",
             "uuid": "c3460ea3-1096-443b-a725-0dc5ee1c16dd",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
-                "text": "Angry Space Dorito",
                 "extents": true,
-                "vertical": false,
+                "text": "Angry Space Dorito",
                 "undo_uuid": "c3460ea3-1096-443b-a725-0dc5ee1c16dd",
+                "vertical": false,
                 "font": {
                     "face": "Hunders",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "right",
                 "valign": "top",
@@ -2357,21 +2402,21 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_Runner 2",
             "uuid": "c0505b11-ce43-4928-9484-afddc885f1aa",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
                 "extents": true,
-                "vertical": false,
                 "text": "Chill Spirit",
                 "undo_uuid": "c0505b11-ce43-4928-9484-afddc885f1aa",
+                "vertical": false,
                 "font": {
                     "face": "Hunders",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "right",
                 "valign": "top",
@@ -2397,20 +2442,20 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_Runner 3",
             "uuid": "4fe3580b-2f6c-46e7-893e-3020dbe284e4",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
                 "extents": true,
-                "vertical": false,
                 "text": "Cologne Drinker",
+                "vertical": false,
                 "font": {
                     "face": "Hunders",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "right",
                 "valign": "top",
@@ -2436,20 +2481,20 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_Runner 4",
             "uuid": "ba596771-cbcc-4bce-906a-b4a50295db09",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
                 "extents": true,
-                "vertical": false,
                 "text": "Tilaly",
+                "vertical": false,
                 "font": {
                     "face": "Hunders",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "right",
                 "valign": "top",
@@ -2475,20 +2520,20 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_Runner 5",
             "uuid": "ee5250bb-603f-4cfa-82d4-8c99fd6977af",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
                 "extents": true,
-                "vertical": false,
                 "text": "Clipboard Guy",
+                "vertical": false,
                 "font": {
                     "face": "Hunders",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "right",
                 "valign": "top",
@@ -2514,7 +2559,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_RunnerPFP 1",
             "uuid": "7ef4ba01-ecf1-40e2-99a7-9a4ad17fcb74",
             "id": "image_source",
@@ -2541,17 +2586,17 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 537001986,
                     "name": "Image Mask/Blend",
                     "uuid": "aa18bfc6-1a55-4842-9941-a75e12cbc8aa",
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "C:/Users/Lukas Kreiter/Documents/aseprite/aseprite files/FNF/PFP_mask.png",
                         "stretch": false,
+                        "image_path": "C:/Users/Zeroman/Documents/GitHub/TF2SR-Event-Assets/FNF/WaitingScene/PFP_mask.png",
                         "type": "mask_alpha_filter.effect",
                         "color": 4294967295,
-                        "opacity": 1.0
+                        "opacity": 1
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -2573,7 +2618,7 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_RunnerPFP 2",
             "uuid": "3a557f31-834a-459c-a1e5-f470da959de2",
             "id": "image_source",
@@ -2599,17 +2644,17 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 537001986,
                     "name": "Image Mask/Blend",
                     "uuid": "08a190e5-7b88-4760-abaf-1803d3100569",
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "C:/Users/Lukas Kreiter/Documents/aseprite/aseprite files/FNF/PFP_mask.png",
                         "stretch": false,
+                        "image_path": "C:/Users/Zeroman/Documents/GitHub/TF2SR-Event-Assets/FNF/WaitingScene/PFP_mask.png",
                         "type": "mask_alpha_filter.effect",
                         "color": 4294967295,
-                        "opacity": 1.0
+                        "opacity": 1
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -2631,7 +2676,7 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_RunnerPFP 3",
             "uuid": "94a29bc8-867d-43bb-b8a6-f0b717a2ab78",
             "id": "image_source",
@@ -2657,17 +2702,17 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 537001986,
                     "name": "Image Mask/Blend",
                     "uuid": "7b8e83bd-2316-4842-9293-8bd13d0baae7",
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "C:/Users/Lukas Kreiter/Documents/aseprite/aseprite files/FNF/PFP_mask.png",
                         "stretch": false,
+                        "image_path": "C:/Users/Zeroman/Documents/GitHub/TF2SR-Event-Assets/FNF/WaitingScene/PFP_mask.png",
                         "type": "mask_alpha_filter.effect",
                         "color": 4294967295,
-                        "opacity": 1.0
+                        "opacity": 1
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -2689,7 +2734,7 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_RunnerPFP 4",
             "uuid": "e8f25c44-640d-4dec-a0a3-c72dd1e985ad",
             "id": "image_source",
@@ -2715,17 +2760,17 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 537001986,
                     "name": "Image Mask/Blend",
                     "uuid": "93e27fa2-cb78-4827-b7a9-b1d95669ceb2",
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "C:/Users/Lukas Kreiter/Documents/aseprite/aseprite files/FNF/PFP_mask.png",
                         "stretch": false,
+                        "image_path": "C:/Users/Zeroman/Documents/GitHub/TF2SR-Event-Assets/FNF/WaitingScene/PFP_mask.png",
                         "type": "mask_alpha_filter.effect",
                         "color": 4294967295,
-                        "opacity": 1.0
+                        "opacity": 1
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -2747,7 +2792,7 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_RunnerPFP 5",
             "uuid": "b1907eaf-8011-4ac0-a2b4-ec4ed996cd12",
             "id": "image_source",
@@ -2773,17 +2818,17 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 537001986,
                     "name": "Image Mask/Blend",
                     "uuid": "e7fcedf3-43c7-4067-a1cd-c62c03db7cb8",
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "C:/Users/Lukas Kreiter/Documents/aseprite/aseprite files/FNF/PFP_mask.png",
                         "stretch": false,
+                        "image_path": "C:/Users/Zeroman/Documents/GitHub/TF2SR-Event-Assets/FNF/WaitingScene/PFP_mask.png",
                         "type": "mask_alpha_filter.effect",
                         "color": 4294967295,
-                        "opacity": 1.0
+                        "opacity": 1
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -2805,7 +2850,7 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_Score",
             "uuid": "45290ff8-1c39-470a-a5b7-423ff8a34072",
             "id": "text_gdiplus",
@@ -2814,9 +2859,9 @@
                 "text": "8",
                 "font": {
                     "face": "JetBrains Mono",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "color": 4278190080
             },
@@ -2838,7 +2883,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "L_Timer",
             "uuid": "5d164711-8fb7-44ce-8806-c8e282b70191",
             "id": "window_capture",
@@ -2869,16 +2914,16 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 537001986,
                     "name": "Chroma Key",
                     "uuid": "554ca878-9fe8-49db-8c61-d33f2faaa917",
                     "id": "chroma_key_filter",
                     "versioned_id": "chroma_key_filter_v2",
                     "settings": {
-                        "opacity": 1.0,
-                        "contrast": 0.76000000000000001,
-                        "brightness": 0.032000000000000001,
-                        "gamma": -1.0,
+                        "opacity": 1,
+                        "contrast": 0.76,
+                        "brightness": 0.032,
+                        "gamma": -1,
                         "key_color": 4278452479,
                         "key_color_type": "custom",
                         "similarity": 406,
@@ -2905,7 +2950,7 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Microphone",
             "uuid": "8bba7e8e-1712-4de1-a8dc-9b27891329da",
             "id": "wasapi_input_capture",
@@ -2934,7 +2979,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Music",
             "uuid": "87b99131-ee96-4109-a2df-d2a8b0a0185e",
             "id": "wasapi_process_output_capture",
@@ -2945,7 +2990,7 @@
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 0.96824854612350464,
+            "volume": 0.9682485461235046,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -2965,7 +3010,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Next_Up 1",
             "uuid": "50493679-385c-42d8-ad36-6a4495292b93",
             "id": "text_gdiplus",
@@ -2974,9 +3019,9 @@
                 "text": "Angry Space Dorito",
                 "font": {
                     "face": "Inter-Bureau",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 }
             },
             "mixers": 0,
@@ -2997,7 +3042,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Next_Up 2",
             "uuid": "8d3e18ab-30d6-4207-a3c0-bb8018fa9d8c",
             "id": "text_gdiplus",
@@ -3006,9 +3051,9 @@
                 "text": "Angry Space Dorito",
                 "font": {
                     "face": "Inter-Bureau",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 }
             },
             "mixers": 0,
@@ -3029,14 +3074,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Runner Scene",
             "uuid": "b9b13ab1-0353-4be7-9b98-2abc3b917c22",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 24,
                 "custom_size": false,
+                "id_counter": 25,
                 "items": [
                     {
                         "name": "Microphone",
@@ -3314,61 +3359,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Twitch chat",
-                        "source_uuid": "3ebcd1e2-dc31-482c-bca8-57065cfbcd78",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 19,
-                        "crop_bottom": 21,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 17.0,
-                            "y": 892.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7462962865829468,
-                            "y": 0.65185189247131348
-                        },
-                        "scale": {
-                            "x": 0.18903668224811554,
-                            "y": 0.18896833062171936
-                        },
-                        "scale_rel": {
-                            "x": 0.18903668224811554,
-                            "y": 0.18896833062171936
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "R_Runner",
                         "source_uuid": "7722b89b-70fd-4199-9ffd-e3e4b484873d",
                         "visible": true,
@@ -3393,16 +3383,16 @@
                             "y": 185.0
                         },
                         "pos_rel": {
-                            "x": 0.70833331346511841,
-                            "y": -0.65740740299224854
+                            "x": 0.7083333134651184,
+                            "y": -0.6574074029922485
                         },
                         "scale": {
-                            "x": 0.69166666269302368,
-                            "y": 0.68796294927597046
+                            "x": 0.6916666626930237,
+                            "y": 0.6879629492759705
                         },
                         "scale_rel": {
-                            "x": 0.69166666269302368,
-                            "y": 0.68796294927597046
+                            "x": 0.6916666626930237,
+                            "y": 0.6879629492759705
                         },
                         "bounds": {
                             "x": 0.0,
@@ -3449,15 +3439,15 @@
                         },
                         "pos_rel": {
                             "x": -1.7685185670852661,
-                            "y": -0.65370368957519531
+                            "y": -0.6537036895751953
                         },
                         "scale": {
-                            "x": 0.69166666269302368,
-                            "y": 0.68796294927597046
+                            "x": 0.6916666626930237,
+                            "y": 0.6879629492759705
                         },
                         "scale_rel": {
-                            "x": 0.69166666269302368,
-                            "y": 0.68796294927597046
+                            "x": 0.6916666626930237,
+                            "y": 0.6879629492759705
                         },
                         "bounds": {
                             "x": 0.0,
@@ -3504,7 +3494,7 @@
                         },
                         "pos_rel": {
                             "x": -1.7685185670852661,
-                            "y": -0.65740740299224854
+                            "y": -0.6574074029922485
                         },
                         "scale": {
                             "x": 1.0,
@@ -3560,16 +3550,16 @@
                             "y": 211.99996948242188
                         },
                         "pos_rel": {
-                            "x": 0.088888891041278839,
-                            "y": -0.60740745067596436
+                            "x": 0.08888889104127884,
+                            "y": -0.6074074506759644
                         },
                         "scale": {
-                            "x": 0.88518518209457397,
-                            "y": 0.88703703880310059
+                            "x": 0.885185182094574,
+                            "y": 0.8870370388031006
                         },
                         "scale_rel": {
-                            "x": 0.88518518209457397,
-                            "y": 0.88703703880310059
+                            "x": 0.885185182094574,
+                            "y": 0.8870370388031006
                         },
                         "bounds": {
                             "x": 0.0,
@@ -3615,16 +3605,16 @@
                             "y": 213.99996948242188
                         },
                         "pos_rel": {
-                            "x": -0.72129631042480469,
-                            "y": -0.60370373725891113
+                            "x": -0.7212963104248047,
+                            "y": -0.6037037372589111
                         },
                         "scale": {
-                            "x": 0.84166663885116577,
-                            "y": 0.83611112833023071
+                            "x": 0.8416666388511658,
+                            "y": 0.8361111283302307
                         },
                         "scale_rel": {
-                            "x": 0.84166663885116577,
-                            "y": 0.83611112833023071
+                            "x": 0.8416666388511658,
+                            "y": 0.8361111283302307
                         },
                         "bounds": {
                             "x": 0.0,
@@ -3670,8 +3660,8 @@
                             "y": 211.99996948242188
                         },
                         "pos_rel": {
-                            "x": -0.72129631042480469,
-                            "y": -0.60740745067596436
+                            "x": -0.7212963104248047,
+                            "y": -0.6074074506759644
                         },
                         "scale": {
                             "x": 1.0,
@@ -3727,15 +3717,15 @@
                             "y": 198.0
                         },
                         "pos_rel": {
-                            "x": 0.0074074072763323784,
-                            "y": -0.63333332538604736
+                            "x": 0.007407407276332378,
+                            "y": -0.6333333253860474
                         },
                         "scale": {
-                            "x": 0.32222223281860352,
+                            "x": 0.3222222328186035,
                             "y": 0.32407405972480774
                         },
                         "scale_rel": {
-                            "x": 0.32222223281860352,
+                            "x": 0.3222222328186035,
                             "y": 0.32407405972480774
                         },
                         "bounds": {
@@ -3782,15 +3772,15 @@
                             "y": 198.0
                         },
                         "pos_rel": {
-                            "x": -0.077777780592441559,
-                            "y": -0.63333332538604736
+                            "x": -0.07777778059244156,
+                            "y": -0.6333333253860474
                         },
                         "scale": {
-                            "x": 0.32222223281860352,
+                            "x": 0.3222222328186035,
                             "y": 0.32407405972480774
                         },
                         "scale_rel": {
-                            "x": 0.32222223281860352,
+                            "x": 0.3222222328186035,
                             "y": 0.32407405972480774
                         },
                         "bounds": {
@@ -3837,8 +3827,8 @@
                             "y": 198.0
                         },
                         "pos_rel": {
-                            "x": -0.077777780592441559,
-                            "y": -0.63333332538604736
+                            "x": -0.07777778059244156,
+                            "y": -0.6333333253860474
                         },
                         "scale": {
                             "x": 1.0,
@@ -3894,7 +3884,7 @@
                             "y": 1013.9998779296875
                         },
                         "pos_rel": {
-                            "x": 0.99259281158447266,
+                            "x": 0.9925928115844727,
                             "y": 0.8777775764465332
                         },
                         "scale": {
@@ -3949,8 +3939,8 @@
                             "y": 899.0
                         },
                         "pos_rel": {
-                            "x": 0.99259257316589355,
-                            "y": 0.66481482982635498
+                            "x": 0.9925925731658936,
+                            "y": 0.664814829826355
                         },
                         "scale": {
                             "x": 0.15740740299224854,
@@ -4004,8 +3994,8 @@
                             "y": 899.0
                         },
                         "pos_rel": {
-                            "x": 0.99259257316589355,
-                            "y": 0.66481482982635498
+                            "x": 0.9925925731658936,
+                            "y": 0.664814829826355
                         },
                         "scale": {
                             "x": 1.0,
@@ -4057,19 +4047,19 @@
                         "id": 23,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 711.49993896484375,
+                            "x": 711.4999389648438,
                             "y": 1007.9998779296875
                         },
                         "pos_rel": {
                             "x": -0.46018528938293457,
-                            "y": 0.86666643619537354
+                            "y": 0.8666664361953735
                         },
                         "scale": {
-                            "x": 0.18787878751754761,
+                            "x": 0.1878787875175476,
                             "y": 0.18928571045398712
                         },
                         "scale_rel": {
-                            "x": 0.18787878751754761,
+                            "x": 0.1878787875175476,
                             "y": 0.18928571045398712
                         },
                         "bounds": {
@@ -4113,18 +4103,18 @@
                         "group_item_backup": true,
                         "pos": {
                             "x": 711.5,
-                            "y": 946.99993896484375
+                            "y": 946.9999389648438
                         },
                         "pos_rel": {
-                            "x": -0.46018519997596741,
-                            "y": 0.75370359420776367
+                            "x": -0.4601851999759674,
+                            "y": 0.7537035942077637
                         },
                         "scale": {
-                            "x": 0.18787878751754761,
+                            "x": 0.1878787875175476,
                             "y": 0.18928571045398712
                         },
                         "scale_rel": {
-                            "x": 0.18787878751754761,
+                            "x": 0.1878787875175476,
                             "y": 0.18928571045398712
                         },
                         "bounds": {
@@ -4172,14 +4162,14 @@
                         },
                         "pos_rel": {
                             "x": -0.4601847231388092,
-                            "y": 0.64074075222015381
+                            "y": 0.6407407522201538
                         },
                         "scale": {
-                            "x": 0.18787878751754761,
+                            "x": 0.1878787875175476,
                             "y": 0.18928571045398712
                         },
                         "scale_rel": {
-                            "x": 0.18787878751754761,
+                            "x": 0.1878787875175476,
                             "y": 0.18928571045398712
                         },
                         "bounds": {
@@ -4222,12 +4212,12 @@
                         "id": 20,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 711.49993896484375,
+                            "x": 711.4999389648438,
                             "y": 886.0
                         },
                         "pos_rel": {
                             "x": -0.46018528938293457,
-                            "y": 0.64074075222015381
+                            "y": 0.6407407522201538
                         },
                         "scale": {
                             "x": 1.0,
@@ -4257,6 +4247,61 @@
                         "private_settings": {
                             "collapsed": true
                         }
+                    },
+                    {
+                        "name": "Browser",
+                        "source_uuid": "d83d6123-0e2e-40ec-bf5b-2e884cc9b491",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 25,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 893.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": 0.6537036895751953
+                        },
+                        "scale": {
+                            "x": 0.7799999713897705,
+                            "y": 0.7791666388511658
+                        },
+                        "scale_rel": {
+                            "x": 0.7799999713897705,
+                            "y": 0.7791666388511658
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 300
+                        },
+                        "hide_transition": {
+                            "duration": 300
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -4283,8 +4328,6 @@
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.13": [],
                 "libobs.hide_scene_item.13": [],
                 "libobs.show_scene_item.12": [],
@@ -4294,15 +4337,18 @@
                 "libobs.show_scene_item.19": [],
                 "libobs.hide_scene_item.19": [],
                 "libobs.show_scene_item.20": [],
-                "libobs.hide_scene_item.20": []
+                "libobs.hide_scene_item.20": [],
+                "libobs.show_scene_item.25": [],
+                "libobs.hide_scene_item.25": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "RunnerGraphic",
             "uuid": "52b9b4a2-4a59-4659-bcd6-3647ab52cc0a",
             "id": "browser_source",
@@ -4337,13 +4383,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "RunnerPNG",
             "uuid": "858d6c4f-1faf-4fed-aea9-de775177fb19",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/Lukas Kreiter/Documents/aseprite/aseprite files/FNF/RunnerScene/RunnerScene.png"
+                "file": "C:/Users/Zeroman/Documents/GitHub/TF2SR-Event-Assets/FNF/RunnerScene/RunnerScene.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -4363,7 +4409,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "RunnerScreens",
             "uuid": "948c186e-19b1-4ab7-aede-3fc5bd66ade2",
             "id": "window_capture",
@@ -4394,19 +4440,19 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_Runner",
             "uuid": "7722b89b-70fd-4199-9ffd-e3e4b484873d",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
-                "text": "Angry Space Dorito",
                 "outline": true,
+                "text": "Angry Space Dorito",
                 "font": {
                     "face": "Inter-Bureau",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 80,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "right",
                 "color": 4281745372,
@@ -4431,21 +4477,21 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_Runner 1",
             "uuid": "ac3ffe73-3038-413e-a4fa-dad4a6462a3b",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
-                "text": "Reasonance",
                 "extents": true,
-                "vertical": false,
+                "text": "Reasonance",
                 "undo_uuid": "c3460ea3-1096-443b-a725-0dc5ee1c16dd",
+                "vertical": false,
                 "font": {
                     "face": "Hunders",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "left",
                 "valign": "top",
@@ -4471,21 +4517,21 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_Runner 2",
             "uuid": "efb948af-860d-4c95-89be-73b23ee1bb09",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
                 "extents": true,
-                "vertical": false,
                 "text": "Zeroman",
                 "undo_uuid": "c0505b11-ce43-4928-9484-afddc885f1aa",
+                "vertical": false,
                 "font": {
                     "face": "Hunders",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "left",
                 "valign": "top",
@@ -4511,20 +4557,20 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_Runner 3",
             "uuid": "fd6a19cd-8237-4209-8cf3-9bbe1b89eb0d",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
                 "extents": true,
-                "vertical": false,
                 "text": "IceCream Man",
+                "vertical": false,
                 "font": {
                     "face": "Hunders",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "left",
                 "valign": "top",
@@ -4550,20 +4596,20 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_Runner 4",
             "uuid": "2f671f9f-37a1-4918-826a-9bbecf462bd7",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
                 "extents": true,
-                "vertical": false,
                 "text": "Xeno",
+                "vertical": false,
                 "font": {
                     "face": "Hunders",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "left",
                 "valign": "top",
@@ -4589,20 +4635,20 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_Runner 5",
             "uuid": "8cc21289-0f7d-4233-b7b7-7f9f479f405e",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
                 "extents": true,
-                "vertical": false,
                 "text": "Darkwin",
+                "vertical": false,
                 "font": {
                     "face": "Hunders",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "left",
                 "valign": "top",
@@ -4628,7 +4674,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_RunnerPFP 1",
             "uuid": "364b58d6-bd73-4418-89de-14bfac533ae5",
             "id": "image_source",
@@ -4655,17 +4701,17 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 537001986,
                     "name": "Image Mask/Blend",
                     "uuid": "be3003c0-0f8a-478b-870b-ec967157a288",
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "C:/Users/Lukas Kreiter/Documents/aseprite/aseprite files/FNF/PFP_mask.png",
                         "stretch": false,
+                        "image_path": "C:/Users/Zeroman/Documents/GitHub/TF2SR-Event-Assets/FNF/WaitingScene/PFP_mask.png",
                         "type": "mask_alpha_filter.effect",
                         "color": 4294967295,
-                        "opacity": 1.0
+                        "opacity": 1
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -4687,7 +4733,7 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_RunnerPFP 2",
             "uuid": "d2f192b4-4a3a-4fd9-88ae-0f11e1eda504",
             "id": "image_source",
@@ -4713,17 +4759,17 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 537001986,
                     "name": "Image Mask/Blend",
                     "uuid": "8abc45bb-fa61-4b1c-be9b-fef66f4abe11",
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "C:/Users/Lukas Kreiter/Documents/aseprite/aseprite files/FNF/PFP_mask.png",
                         "stretch": false,
+                        "image_path": "C:/Users/Zeroman/Documents/GitHub/TF2SR-Event-Assets/FNF/WaitingScene/PFP_mask.png",
                         "type": "mask_alpha_filter.effect",
                         "color": 4294967295,
-                        "opacity": 1.0
+                        "opacity": 1
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -4745,7 +4791,7 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_RunnerPFP 3",
             "uuid": "f389059d-b459-4cc8-85e4-839b406d5808",
             "id": "image_source",
@@ -4771,17 +4817,17 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 537001986,
                     "name": "Image Mask/Blend",
                     "uuid": "95bdfad5-2bd7-4238-806c-f3c81d7e69eb",
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "C:/Users/Lukas Kreiter/Documents/aseprite/aseprite files/FNF/PFP_mask.png",
                         "stretch": false,
+                        "image_path": "C:/Users/Zeroman/Documents/GitHub/TF2SR-Event-Assets/FNF/WaitingScene/PFP_mask.png",
                         "type": "mask_alpha_filter.effect",
                         "color": 4294967295,
-                        "opacity": 1.0
+                        "opacity": 1
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -4803,7 +4849,7 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_RunnerPFP 4",
             "uuid": "e13fc023-5f9c-4ba0-91a9-104a23fcab37",
             "id": "image_source",
@@ -4829,17 +4875,17 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 537001986,
                     "name": "Image Mask/Blend",
                     "uuid": "c7750e78-adcc-40f4-9a56-4d660be3b5ed",
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "C:/Users/Lukas Kreiter/Documents/aseprite/aseprite files/FNF/PFP_mask.png",
                         "stretch": false,
+                        "image_path": "C:/Users/Zeroman/Documents/GitHub/TF2SR-Event-Assets/FNF/WaitingScene/PFP_mask.png",
                         "type": "mask_alpha_filter.effect",
                         "color": 4294967295,
-                        "opacity": 1.0
+                        "opacity": 1
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -4861,7 +4907,7 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_RunnerPFP 5",
             "uuid": "aec3b408-b84a-40ba-8978-f45246db8ded",
             "id": "image_source",
@@ -4887,17 +4933,17 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 537001986,
                     "name": "Image Mask/Blend",
                     "uuid": "592d82dd-58df-4b9f-ab89-825d98903d8b",
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "C:/Users/Lukas Kreiter/Documents/aseprite/aseprite files/FNF/PFP_mask.png",
                         "stretch": false,
+                        "image_path": "C:/Users/Zeroman/Documents/GitHub/TF2SR-Event-Assets/FNF/WaitingScene/PFP_mask.png",
                         "type": "mask_alpha_filter.effect",
                         "color": 4294967295,
-                        "opacity": 1.0
+                        "opacity": 1
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -4919,7 +4965,7 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_Score",
             "uuid": "c937e492-9157-423b-aa41-2025b95a9930",
             "id": "text_gdiplus",
@@ -4928,9 +4974,9 @@
                 "text": "8",
                 "font": {
                     "face": "JetBrains Mono",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 256,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "color": 4278190080
             },
@@ -4952,7 +4998,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "R_Timer",
             "uuid": "a6f78d11-5267-4aa6-a75f-69cf712e1092",
             "id": "window_capture",
@@ -4983,16 +5029,16 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 537001986,
                     "name": "Chroma Key",
                     "uuid": "6a804d4e-c81e-4f95-9742-591a145cc120",
                     "id": "chroma_key_filter",
                     "versioned_id": "chroma_key_filter_v2",
                     "settings": {
-                        "opacity": 1.0,
-                        "contrast": 0.76000000000000001,
-                        "brightness": 0.032000000000000001,
-                        "gamma": -1.0,
+                        "opacity": 1,
+                        "contrast": 0.76,
+                        "brightness": 0.032,
+                        "gamma": -1,
                         "key_color": 4293562624,
                         "key_color_type": "custom",
                         "similarity": 406,
@@ -5019,14 +5065,14 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "StandBy",
             "uuid": "04809dc9-c740-41df-a84f-529229011929",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 1,
                 "custom_size": false,
+                "id_counter": 1,
                 "items": [
                     {
                         "name": "StandByPNG",
@@ -5104,16 +5150,17 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "StandByPNG",
             "uuid": "eac1cbc7-f24d-49c7-864d-859d29c1177e",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/Lukas Kreiter/Documents/aseprite/aseprite files/FNF/Standby/Standby.png"
+                "file": "C:/Users/Zeroman/Documents/GitHub/TF2SR-Event-Assets/FNF/Renders/Standby.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -5133,53 +5180,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
-            "name": "Twitch chat",
-            "uuid": "3ebcd1e2-dc31-482c-bca8-57065cfbcd78",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "is_local_file": false,
-                "local_file": "C:/Users/Lukas Kreiter/Documents/aseprite/aseprite files/FNF/twitch chat.html",
-                "undo_uuid": "3ebcd1e2-dc31-482c-bca8-57065cfbcd78",
-                "url": "https://www.twitch.tv/popout/titanfall2speedruns/chat?popout=&darkpopout&showTimestamps=true\n",
-                "width": 2500,
-                "height": 1000,
-                "restart_when_active": false,
-                "css": "/* Main font, size, colors */\n\nhtml,\nbody,\n#root,\n.chat-room,\n.chat-room__content,\n.scrollable-area,\n.tw-root--theme-dark {\n  background: transparent !important;\n  background-color: transparent !important;\n\n  font-family: 'Atkinson Hyperlegible Next', monospace !important;\n  font-size: 100px !important;\n  line-height: 1.2 !important;\n\n  color: #ffffff !important;\n}\n\n/* Username styling */\n\n.chat-author__display-name {\n  font-weight: 500 !important;\n  font-size: 100px !important;\n}\n\n/* Message styling */\n\n.text-fragment {\n  color: #ffffff !important;\n  font-size: 100px !important;\n}\n\n/* --------- Chat layout */\n\n/* Remove Twitch's default separator */\n\n.chat-line__message > span:not(.chat-author__display-name):first-child {\n  display: none !important;\n}\n\n/* Emotes */\n\n.chat-image,\nimg.chat-line__message--emote,\nimg[class*=\"emote\"],\nimg.emoji {\n  display: inline-block !important;\n\n  height: 2.4em !important;\n  width: auto !important;\n\n  margin: 0 2px !important;\n  padding: 0 !important;\n\n  vertical-align: middle !important;\n}\n\n.chat-line__message {\n  display: flex !important;\n  flex-wrap: wrap !important;\n  align-items: baseline !important;\n  line-height: 1.2 !important;\n}\n\n.chat-line__message > span {\n  align-items: center !important;\n  margin: 0 !important;\n  padding: 0 !important;\n}\n\n/* --------- Utility */\n\n/* Hide scrollbar */\n\n::-webkit-scrollbar {\n  display: none;\n}\n\n/* --------- Remove UI elements */\n\n/* Stream Chat header */\n\n.Layout-sc-1xcs6mc-0.jmERFg.stream-chat-header,\n.InjectLayout-sc-1i43xsx-0.iDMNUO {\n  display: none !important;\n}\n\n/* Top gifters leaderboard */\n\n.channel-leaderboard-header-rotating__users,\n.ScTransitionBase-sc-hx4quq-0.hhLPgp.tw-transition {\n  display: none !important;\n  height: 0 !important;\n  max-height: 0 !important;\n  overflow: hidden !important;\n}\n\n/* Gift popups */\n\n.Layout-sc-1xcs6mc-0.ikqKEy {\n  display: none !important;\n}\n\n/* Animated emote banner */\n\n.Layout-sc-1xcs6mc-0.fysEov,\n.Layout-sc-1xcs6mc-0.bLZXTb,\n.Layout-sc-1xcs6mc-0.kklSOA.chat-input,\n.ScCoreButton-sc-ocjdkq-0.evvsZQ,\n.CoreText-sc-1txzju1-0.cWFBTs {\n  display: none !important;\n}\n\n/* Cookies banner */\n\n[data-a-target=\"consent-banner\"],\n.consent-banner,\ndiv[class*=\"consent\"] {\n  display: none !important;\n}\n\n/* Predictions banner */\n\n.Layout-sc-1xcs6mc-0.cEllaX {\n  display: none !important;\n  visibility: hidden !important;\n  height: 0 !important;\n  max-height: 0 !important;\n  overflow: hidden !important;\n}\n\n/* User badges */\n\n.chat-badge,\n.chat-badge-container,\nimg.chat-badge {\n  display: none !important;\n}\n\n/* FFZ reply references */\n\n.ffz--fix-reply-line,\n.chat-line__reply,\n[class*=\"reply\"] {\n  display: none !important;\n  visibility: hidden !important;\n  height: 0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  font-size: 0 !important;\n  line-height: 0 !important;\n}\n\n/* Cheers / gifted subs activity carousel */\n\n.Layout-sc-1xcs6mc-0.eOHCrm {\n  display: none !important;\n  visibility: hidden !important;\n  height: 0 !important;\n  max-height: 0 !important;\n  overflow: hidden !important;\n  margin: 0 !important;\n  padding: 0 !important;\n}"
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Waiting Scene",
             "uuid": "c1e5d7f2-bdbe-4512-81c9-fe578eb5cbe7",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 34,
                 "custom_size": false,
+                "id_counter": 34,
                 "items": [
                     {
                         "name": "Microphone",
@@ -5482,14 +5490,14 @@
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": 0.55185186862945557
+                            "y": 0.5518518686294556
                         },
                         "scale": {
-                            "x": 2.4211852550506592,
+                            "x": 2.421185255050659,
                             "y": 2.4200000762939453
                         },
                         "scale_rel": {
-                            "x": 2.4211852550506592,
+                            "x": 2.421185255050659,
                             "y": 2.4200000762939453
                         },
                         "bounds": {
@@ -5532,11 +5540,11 @@
                         "id": 14,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 584.50006103515625,
+                            "x": 584.5000610351562,
                             "y": 608.0
                         },
                         "pos_rel": {
-                            "x": -0.69537025690078735,
+                            "x": -0.6953702569007874,
                             "y": 0.12592589855194092
                         },
                         "scale": {
@@ -5587,12 +5595,12 @@
                         "id": 13,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 585.00006103515625,
+                            "x": 585.0000610351562,
                             "y": 519.0
                         },
                         "pos_rel": {
-                            "x": -0.69444435834884644,
-                            "y": -0.038888871669769287
+                            "x": -0.6944443583488464,
+                            "y": -0.03888887166976929
                         },
                         "scale": {
                             "x": 0.26944443583488464,
@@ -5642,11 +5650,11 @@
                         "id": 12,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 585.00006103515625,
+                            "x": 585.0000610351562,
                             "y": 427.0
                         },
                         "pos_rel": {
-                            "x": -0.69444435834884644,
+                            "x": -0.6944443583488464,
                             "y": -0.2092592716217041
                         },
                         "scale": {
@@ -5701,7 +5709,7 @@
                             "y": 336.0
                         },
                         "pos_rel": {
-                            "x": -0.69259262084960938,
+                            "x": -0.6925926208496094,
                             "y": -0.37777775526046753
                         },
                         "scale": {
@@ -5756,8 +5764,8 @@
                             "y": 248.99996948242188
                         },
                         "pos_rel": {
-                            "x": -0.69259262084960938,
-                            "y": -0.53888893127441406
+                            "x": -0.6925926208496094,
+                            "y": -0.5388889312744141
                         },
                         "scale": {
                             "x": 0.26944443583488464,
@@ -5807,12 +5815,12 @@
                         "id": 15,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 584.50006103515625,
+                            "x": 584.5000610351562,
                             "y": 248.99996948242188
                         },
                         "pos_rel": {
-                            "x": -0.69537025690078735,
-                            "y": -0.53888893127441406
+                            "x": -0.6953702569007874,
+                            "y": -0.5388889312744141
                         },
                         "scale": {
                             "x": 1.0,
@@ -5975,7 +5983,7 @@
                         "group_item_backup": true,
                         "pos": {
                             "x": 1091.499755859375,
-                            "y": 425.99978637695312
+                            "y": 425.9997863769531
                         },
                         "pos_rel": {
                             "x": 0.24351806938648224,
@@ -6034,7 +6042,7 @@
                         },
                         "pos_rel": {
                             "x": 0.24166598916053772,
-                            "y": -0.37962996959686279
+                            "y": -0.3796299695968628
                         },
                         "scale": {
                             "x": 0.26944443583488464,
@@ -6089,7 +6097,7 @@
                         },
                         "pos_rel": {
                             "x": 0.24166598916053772,
-                            "y": -0.54074102640151978
+                            "y": -0.5407410264015198
                         },
                         "scale": {
                             "x": 0.26944443583488464,
@@ -6144,7 +6152,7 @@
                         },
                         "pos_rel": {
                             "x": 0.2388884425163269,
-                            "y": -0.54074102640151978
+                            "y": -0.5407410264015198
                         },
                         "scale": {
                             "x": 1.0,
@@ -6362,7 +6370,7 @@
                         "group_item_backup": true,
                         "pos": {
                             "x": 848.0,
-                            "y": 331.00009155273438
+                            "y": 331.0000915527344
                         },
                         "pos_rel": {
                             "x": -0.2074074000120163,
@@ -6421,7 +6429,7 @@
                         },
                         "pos_rel": {
                             "x": -0.2074074000120163,
-                            "y": -0.55370354652404785
+                            "y": -0.5537035465240479
                         },
                         "scale": {
                             "x": 0.23796288669109344,
@@ -6476,7 +6484,7 @@
                         },
                         "pos_rel": {
                             "x": -0.2074074000120163,
-                            "y": -0.55370354652404785
+                            "y": -0.5537035465240479
                         },
                         "scale": {
                             "x": 1.0,
@@ -6532,7 +6540,7 @@
                             "y": 604.00048828125
                         },
                         "pos_rel": {
-                            "x": 0.092594064772129059,
+                            "x": 0.09259406477212906,
                             "y": 0.11851942539215088
                         },
                         "scale": {
@@ -6587,7 +6595,7 @@
                             "y": 514.0003662109375
                         },
                         "pos_rel": {
-                            "x": 0.092594064772129059,
+                            "x": 0.09259406477212906,
                             "y": -0.048147499561309814
                         },
                         "scale": {
@@ -6642,7 +6650,7 @@
                             "y": 424.0003662109375
                         },
                         "pos_rel": {
-                            "x": 0.092594064772129059,
+                            "x": 0.09259406477212906,
                             "y": -0.21481412649154663
                         },
                         "scale": {
@@ -6697,7 +6705,7 @@
                             "y": 333.0003662109375
                         },
                         "pos_rel": {
-                            "x": 0.092594064772129059,
+                            "x": 0.09259406477212906,
                             "y": -0.38333266973495483
                         },
                         "scale": {
@@ -6752,8 +6760,8 @@
                             "y": 243.00238037109375
                         },
                         "pos_rel": {
-                            "x": 0.090743117034435272,
-                            "y": -0.54999560117721558
+                            "x": 0.09074311703443527,
+                            "y": -0.5499956011772156
                         },
                         "scale": {
                             "x": 0.390625,
@@ -6807,8 +6815,8 @@
                             "y": 243.00238037109375
                         },
                         "pos_rel": {
-                            "x": 0.090743117034435272,
-                            "y": -0.54999560117721558
+                            "x": 0.09074311703443527,
+                            "y": -0.5499956011772156
                         },
                         "scale": {
                             "x": 1.0,
@@ -6878,10 +6886,11 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "WaitingGraphic",
             "uuid": "d30173f8-bb8e-45b6-bdac-27c1cc6a56a8",
             "id": "browser_source",
@@ -6915,13 +6924,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "WaitingPNG",
             "uuid": "e9281201-1997-42f5-8019-6c3c20aa6e62",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/Lukas Kreiter/Documents/aseprite/aseprite files/FNF/WaitingScene/WaitingScene.png"
+                "file": "C:/Users/Zeroman/Documents/GitHub/TF2SR-Event-Assets/FNF/WaitingScene/WaitingScene.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -6941,7 +6950,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 537001986,
             "name": "Waveform Visualizer",
             "uuid": "77f8f087-cf2b-4a4d-93ef-c800021a6b72",
             "id": "phandasm_waveform_source",
@@ -6967,9 +6976,9 @@
                 "cutoff_high": 16296,
                 "floor": -76,
                 "ceiling": 0,
-                "slope": 0.0,
-                "rolloff_q": 0.0,
-                "rolloff_rate": 0.0,
+                "slope": 0,
+                "rolloff_q": 0,
+                "rolloff_rate": 0,
                 "render_mode": "gradient",
                 "color_base": 1694498815,
                 "color_middle": 4294908674,

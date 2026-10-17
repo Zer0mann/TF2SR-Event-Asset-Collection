@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Twitch Chat Overlay</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: transparent;
+    overflow: hidden;
+  }
+  #chat {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 100%;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    font-family: "Atkinson Hyperlegible Next";
+    font-weight: 300;
+    line-height: 1.35;
+  }
+  .msg {
+    margin: 2px 0;
+    overflow-wrap: anywhere;
+    /* dark outline so text stays readable over any footage */
+    text-shadow: 0 0 3px #000, 0 0 3px #000, 1px 1px 2px #000, -1px -1px 2px #000;
+    transition: opacity 1s;
+  }
+  .msg.fade { opacity: 0; }
+  .name { font-weight: 600; }
+  .emote {
+    height: 1.5em;
+    vertical-align: middle;
+    margin: -0.2em 1px;
+  }
+</style>
+</head>
+<body>
+<div id="chat"></div>
+
+<script>
+// ============================ SETTINGS ============================
+const CONFIG = {
+  channel: "Titanfall2Speedruns",              // your Twitch channel name, e.g. "mychannel"
+  nameColor: "#95d4ff",     // one color for ALL usernames. Use null for Twitch's own colors
+  textColor: "#FFFFFF",     // message text color
+  fontSize: 28,             // px
+  maxMessages: 25,          // how many messages stay on screen
+  hideAfterSeconds: 0,      // fade messages out after N seconds (0 = never)
+  hideCommands: true,       // hide messages starting with "!"
+  ignoreUsers: ["nightbot", "streamelements", "streamlabs", "moobot", "fossabot"],
+  thirdPartyEmotes: true,   // 7TV + BTTV emotes (official Twitch emotes always work)
+};
+// ==================================================================
+
+const chatEl = document.getElementById("chat");
+chatEl.style.fontSize = CONFIG.fontSize + "px";
+chatEl.style.color = CONFIG.textColor;
+
+const params = new URLSearchParams(location.search);
+const channel = (params.get("channel") || CONFIG.channel).toLowerCase().replace(/^#/, "").trim();
+
+const thirdParty = new Map();   // emote name -> image url
+let thirdPartyRequested = false;
+
+// ---------- IRC parsing ----------
+function unescapeTag(v) {
+  return v.replace(/\\(.)/g, (_, c) => ({ s: " ", ":": ";", r: "\r", n: "\n", "\\": "\\" }[c] ?? c));
+}
+
+function parseLine(line) {
+  const tags = {};
+  let rest = line;
+  if (rest.startsWith("@")) {
+    const sp = rest.indexOf(" ");
+    for (const kv of rest.slice(1, sp).split(";")) {
+      const eq = kv.indexOf("=");
+      if (eq === -1) tags[kv] = "";
+      else tags[kv.slice(0, eq)] = unescapeTag(kv.slice(eq + 1));
+    }
+    rest = rest.slice(sp + 1);
+  }
+  let prefix = "";
+  if (rest.startsWith(":")) {
+    const sp = rest.indexOf(" ");
+    prefix = rest.slice(1, sp);
+    rest = rest.slice(sp + 1);
+  }
+  let trailing = null;
+  const colon = rest.indexOf(" :");
+  if (colon !== -1) {
+    trailing = rest.slice(colon + 2);
+    rest = rest.slice(0, colon);
+  }
+  const parts = rest.split(" ");
+  return { tags, prefix, command: parts[0], params: parts.slice(1), trailing };
+}
+
+// ---------- message building (DOM APIs only, never innerHTML) ----------
+function makeEmote(url, name) {
+  const img = document.createElement("img");
+  img.className = "emote";
+  img.alt = name;
+  img.src = url;
+  return img;
+}
+
+function appendWithThirdParty(frag, str) {
+  for (const token of str.split(/(\s+)/)) {
+    if (token === "") continue;
+    const url = thirdParty.get(token);
+    if (url) frag.appendChild(makeEmote(url, token));
+    else frag.appendChild(document.createTextNode(token));
+  }
+}
+
+function buildBody(tags, text) {
+  const chars = Array.from(text);   // Twitch emote positions count code points
+  const ranges = [];
+  if (tags.emotes) {
+    for (const part of tags.emotes.split("/")) {
+      const [id, pos] = part.split(":");
+      if (!id || !pos) continue;
+      for (const r of pos.split(",")) {
+        const [s, e] = r.split("-").map(Number);
+        if (Number.isInteger(s) && Number.isInteger(e)) ranges.push({ s, e, id });
+      }
+    }
+    ranges.sort((a, b) => a.s - b.s);
+  }
+  const frag = document.createDocumentFragment();
+  let cursor = 0;
+  for (const r of ranges) {
+    if (r.s < cursor) continue;
+    if (r.s > cursor) appendWithThirdParty(frag, chars.slice(cursor, r.s).join(""));
+    frag.appendChild(makeEmote(
+      "https://static-cdn.jtvnw.net/emoticons/v2/" + encodeURIComponent(r.id) + "/default/dark/2.0",
+      chars.slice(r.s, r.e + 1).join("")
+    ));
+    cursor = r.e + 1;
+  }
+  if (cursor < chars.length) appendWithThirdParty(frag, chars.slice(cursor).join(""));
+  return frag;
+}
+
+function addMessage(tags, user, text, isAction) {
+  const el = document.createElement("div");
+  el.className = "msg";
+  if (tags.id) el.dataset.id = tags.id;
+  if (tags["user-id"]) el.dataset.user = tags["user-id"];
+
+  const color = CONFIG.nameColor || tags.color || "#FFFFFF";
+  const name = document.createElement("span");
+  name.className = "name";
+  name.textContent = tags["display-name"] || user;
+  name.style.color = color;
+  el.appendChild(name);
+
+  const sep = document.createElement("span");
+  sep.textContent = isAction ? " " : ": ";
+  el.appendChild(sep);
+
+  const body = document.createElement("span");
+  if (isAction) body.style.color = color;
+  body.appendChild(buildBody(tags, text));
+  el.appendChild(body);
+
+  chatEl.appendChild(el);
+  while (chatEl.children.length > CONFIG.maxMessages) chatEl.removeChild(chatEl.firstChild);
+
+  if (CONFIG.hideAfterSeconds > 0) {
+    setTimeout(() => {
+      el.classList.add("fade");
+      setTimeout(() => el.remove(), 1000);
+    }, CONFIG.hideAfterSeconds * 1000);
+  }
+}
+
+// ---------- 7TV / BTTV emotes (failures are ignored, chat still works) ----------
+async function getJson(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(url + " -> " + res.status);
+  return res.json();
+}
+
+async function loadThirdParty(roomId) {
+  const seven = (e) => [e.name, "https://cdn.7tv.app/emote/" + e.id + "/2x.webp"];
+  const bttv = (e) => [e.code, "https://cdn.betterttv.net/emote/" + e.id + "/2x.webp"];
+  // order matters: channel emotes win over global ones with the same name
+  const jobs = [
+    getJson("https://7tv.io/v3/users/twitch/" + roomId).then(d => ((d.emote_set && d.emote_set.emotes) || []).map(seven)),
+    getJson("https://api.betterttv.net/3/cached/users/twitch/" + roomId).then(d => [...(d.channelEmotes || []), ...(d.sharedEmotes || [])].map(bttv)),
+    getJson("https://7tv.io/v3/emote-sets/global").then(d => (d.emotes || []).map(seven)),
+    getJson("https://api.betterttv.net/3/cached/emotes/global").then(list => list.map(bttv)),
+  ];
+  const results = await Promise.allSettled(jobs);
+  for (const r of results) {
+    if (r.status !== "fulfilled") continue;
+    for (const [name, url] of r.value) if (!thirdParty.has(name)) thirdParty.set(name, url);
+  }
+}
+
+// ---------- connection ----------
+function handleLine(ws, line) {
+  const msg = parseLine(line);
+  switch (msg.command) {
+    case "PING":
+      ws.send("PONG :tmi.twitch.tv");
+      break;
+    case "ROOMSTATE":
+      if (CONFIG.thirdPartyEmotes && !thirdPartyRequested && msg.tags["room-id"]) {
+        thirdPartyRequested = true;
+        loadThirdParty(msg.tags["room-id"]);
+      }
+      break;
+    case "PRIVMSG": {
+      const user = msg.prefix.split("!")[0];
+      let text = msg.trailing || "";
+      let isAction = false;
+      if (text.startsWith("\u0001ACTION ") && text.endsWith("\u0001")) {
+        isAction = true;
+        text = text.slice(8, -1);
+      }
+      if (CONFIG.ignoreUsers.includes(user.toLowerCase())) break;
+      if (CONFIG.hideCommands && text.startsWith("!")) break;
+      addMessage(msg.tags, user, text, isAction);
+      break;
+    }
+    case "CLEARMSG":
+      if (msg.tags["target-msg-id"]) {
+        chatEl.querySelectorAll(".msg").forEach(el => {
+          if (el.dataset.id === msg.tags["target-msg-id"]) el.remove();
+        });
+      }
+      break;
+    case "CLEARCHAT": {
+      const target = msg.tags["target-user-id"];
+      chatEl.querySelectorAll(".msg").forEach(el => {
+        if (!target || el.dataset.user === target) el.remove();
+      });
+      break;
+    }
+  }
+}
+
+function connect() {
+  const ws = new WebSocket("wss://irc-ws.chat.twitch.tv:443");
+  ws.onopen = () => {
+    ws.send("CAP REQ :twitch.tv/tags twitch.tv/commands");
+    ws.send("PASS SCHMOOPIIE");                                   // anonymous, read-only login
+    ws.send("NICK justinfan" + (10000 + Math.floor(Math.random() * 89999)));
+    ws.send("JOIN #" + channel);
+  };
+  ws.onmessage = (ev) => {
+    for (const line of String(ev.data).split("\r\n")) if (line) handleLine(ws, line);
+  };
+  ws.onclose = () => setTimeout(connect, 3000);
+  ws.onerror = () => ws.close();
+}
+
+if (!channel) {
+  const note = document.createElement("div");
+  note.className = "msg";
+  note.textContent = "Open this file in a text editor and set your channel name in CONFIG.";
+  chatEl.appendChild(note);
+} else {
+  connect();
+}
+</script>
+</body>
+</html>
